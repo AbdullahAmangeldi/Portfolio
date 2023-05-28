@@ -17,7 +17,7 @@ def get_weather(api_key, location):
 
 def main():
     api_key = "9282a5768304477d8a3ac407d7b9936c"  
-    location = input("Введите место ")
+    location = input("Введите место:")
     get_weather(api_key, location)
 
 if __name__ == "__main__":
